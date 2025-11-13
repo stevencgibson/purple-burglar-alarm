@@ -1,0 +1,31 @@
+{
+  "name": "purple-burglar-alarm",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf build/ && cp -a src/. build/",
+    "lint": "eslint .",
+    "start": "node ./src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevencgibson/purple-burglar-alarm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevencgibson/purple-burglar-alarm/issues"
+  },
+  "homepage": "https://github.com/stevencgibson/purple-burglar-alarm#readme",
+  "description": "",
+  "engines": {
+    "node": "22.13.0",
+    "npm": "10"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.1",
+    "eslint": "9.39.1",
+    "globals": "16.5.0",
+    "jest": "30.2.0"
+  }
+}

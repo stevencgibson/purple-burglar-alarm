@@ -2,7 +2,7 @@
   "name": "purple-burglar-alarm",
   "version": "1.0.0",
   "scripts": {
-    "build": "rm -rf build/ && cp -a srcx/. build/",
+    "build": "rm -rf build/ && cp -a src/. build/",
     "lint": "eslint .",
     "start": "node ./src/index.js",
     "test": "jest"

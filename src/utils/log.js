@@ -1,6 +1,6 @@
 function log(colour = "") {
   return colour
-    ? `The burglar alarm is yellow.`
+    ? `The burglar alarm is ${colour}.`
     : "What colour is the burglar alarm?";
 }
 
